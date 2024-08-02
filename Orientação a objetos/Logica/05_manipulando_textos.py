@@ -24,7 +24,7 @@ print('Agora vamos analisar a frase:')
 print("Para mostra a quantidade de indices da frase ==> ", len(frase))
 print("Para mostra a quantidade de vezes que certo caracter aparece ==> ",
       frase.count('o'))
-print("Para mostra a quantidade de caracteres enttre determinados indices ==>",
+print("Para mostra a quantidade de caracteres entre determinados indices ==>",
       frase.count('o', 0, 13))
 print("Para mostra a posição de determinada string ==>", frase.find(
     'video'))  # Se a string não existir, o valor -1 sera retornado
